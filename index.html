@@ -2,20 +2,108 @@
 <html>
   <head>
     <title>Hermes Continuous Integration and Deployment</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
   </head>
   <body>
-    <h1>Hermes</h1>
-    <script>
-      function getQueryVariable(variable){
-         var query = window.location.search.substring(1);
-         var vars = query.split("&");
-         for (var i=0;i<vars.length;i++) {
-                 var pair = vars[i].split("=");
-                 if(pair[0] == variable){return pair[1];}
-         }
-         return(false);
-      }
-      console.log(getQueryVariable('name'));
-    </script>
+    <div class="overview">
+        <div class="base-container container" style="background:#FFF">
+          <div class="col-lg-12">
+            <div class="row navigation-row">
+              <div class="col-xs-12 top-navigation">
+                  <div class="row">
+                    <div class="col-xs-2 logo">
+                      <img src="assets/logo.jpg">
+                    </div>
+                    <div class="col-xs-6">
+                      
+                    </div>
+                    <div class="col-xs-2 left-nav">
+                      <ul>
+                        <li><a href="">Login</a></li>
+
+                      </ul>
+                    </div>
+                    <div class="col-xs-2 right-nav">
+                      <ul>
+                        <li><a href="">Docs</a></li>
+                        <li><a href="">Install</a></li>
+                        <li><a href="">News</a></li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row home-page-slider" >
+              <div class="left-banner col-xs-9">
+                Big banner image
+              </div>
+              <div class="menu-options col-xs-3">
+                    <ul>
+                      <li><a href="">Connect Git</a></li>
+                      <li><a href="">Connect Bitbucket</a></li>
+
+                    </ul>
+              </div>
+            </div>
+            <div class="row center-headlines">
+              <div class="col-lg-12 center-headline">
+                <h1>Join the Hermes community</h1>
+                <p>Hermes is a new CI platform for linux systems.  Hermes-CI can be used to deploy an application to a server automatically based on commits to Git and Bitbucket.  Currently in BETA written in BASH Hermes is a work in progress with alot in the pipeline including a complete re write in C. With a hosted only portal to control deployments.</p>
+                <span class="cta-button">
+                  <a href="">Action</a>
+                </span>
+              </div>
+            </div>
+            <div class="bottom-section row">
+              <div class="col-xs-8 featured-section">
+                <div class="header">
+                  <h3>Features</h3><span class="coolness"><a href="">View All</a></span>
+                </div>
+                <div class="features">
+                  <div class="feature">
+                    <div class="img">
+                      <img src="assets/img1.jpg">
+                    </div>
+                    <div class="headline">
+                      <span>Using Linux</span>
+                    </div>
+                  </div>
+                  <div class="feature">
+                    <div class="img">
+                      <img src="assets/img2.jpg">
+                    </div>
+                    <div class="headline">
+                      <span>PHP Frameworks of 2017</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-4 latest-news">
+                <div class="headline">
+                  <h4>Latest News</h4>
+                </div>
+                <ul>
+                  <li><a href="">Linux for begingers</a></li>
+                  <li><a href="">JS es2017</a></li>
+                  <li><a href="">PHP 7: The good, the bad, the ugly</a></li>
+                  <li><a href="">Wordpress: Why it's better than you think.</a></li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="footer row">
+              
+            </div>
+          </div>
+        </div>
+    </div>
   </body>
 </html>

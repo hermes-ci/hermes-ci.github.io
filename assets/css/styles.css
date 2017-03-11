@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Oswald");
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/partials/_base.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 9, ../sass/partials/_base.scss */
+h1, h2, h3, h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 12, ../sass/partials/_base.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 15, ../sass/partials/_base.scss */
+h2 {
+  font-size: 1.75em;
+}
+
+/* line 18, ../sass/partials/_base.scss */
+h3 {
+  font-size: 1.5em;
+}
+
+/* line 21, ../sass/partials/_base.scss */
+.overview {
+  background: url("../background-2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* line 29, ../sass/partials/_base.scss */
+.base-container {
+  height: 100%;
+  background: #FFF;
+  padding: 0px;
+  width: 70%;
+  min-width: 750px;
+}
+
+/* line 36, ../sass/partials/_base.scss */
+.navigation-row {
+  background: #1B836C;
+}
+/* line 41, ../sass/partials/_base.scss */
+.navigation-row .top-navigation .logo {
+  z-index: 999;
+  height: 150%;
+  position: absolute;
+  background: #FFF;
+  text-align: center;
+  padding: 0px;
+}
+/* line 48, ../sass/partials/_base.scss */
+.navigation-row .top-navigation .logo img {
+  width: auto;
+  height: 100%;
+}
+/* line 56, ../sass/partials/_base.scss */
+.navigation-row .top-navigation .left-nav, .navigation-row .top-navigation .right-nav {
+  float: right;
+  padding-bottom: 5px;
+}
+/* line 59, ../sass/partials/_base.scss */
+.navigation-row .top-navigation .left-nav ul, .navigation-row .top-navigation .right-nav ul {
+  width: 100%;
+  list-style: none;
+}
+/* line 62, ../sass/partials/_base.scss */
+.navigation-row .top-navigation .left-nav ul li, .navigation-row .top-navigation .right-nav ul li {
+  padding: 5px 10px;
+}
+/* line 64, ../sass/partials/_base.scss */
+.navigation-row .top-navigation .left-nav ul li a, .navigation-row .top-navigation .right-nav ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* line 80, ../sass/partials/_base.scss */
+.home-page-slider {
+  background: url(../banner-2.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 250px;
+  border-bottom: 4px solid #063322;
+}
+/* line 87, ../sass/partials/_base.scss */
+.home-page-slider .menu-options {
+  height: 100%;
+  padding-right: 0px;
+}
+/* line 90, ../sass/partials/_base.scss */
+.home-page-slider .menu-options ul {
+  height: 100%;
+}
+/* line 92, ../sass/partials/_base.scss */
+.home-page-slider .menu-options ul li {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 1px black;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  height: 25%;
+  padding: 2px 5px;
+  background: rgba(250, 250, 250, 0.75);
+  border-bottom: 1px solid black;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 124, ../sass/partials/_base.scss */
+.home-page-slider .menu-options ul li:first-child {
+  border-top: 1px solid black;
+}
+/* line 127, ../sass/partials/_base.scss */
+.home-page-slider .menu-options ul li:hover {
+  background: rgba(255, 170, 0, 0.6);
+}
+/* line 130, ../sass/partials/_base.scss */
+.home-page-slider .menu-options ul li a {
+  color: #FFF;
+  text-decoration: none;
+  width: 100%;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+/* line 144, ../sass/partials/_base.scss */
+.home-page-slider .menu-options ul li a:visted, .home-page-slider .menu-options ul li a:hover {
+  color: #FFF;
+}
+
+/* line 152, ../sass/partials/_base.scss */
+.center-headlines {
+  height: 165px;
+  border-bottom: 4px solid #063322;
+  background: #1B836C;
+  padding: 20px 10px;
+}
+/* line 158, ../sass/partials/_base.scss */
+.center-headlines h1, .center-headlines h2 {
+  color: #FFF;
+}
+/* line 161, ../sass/partials/_base.scss */
+.center-headlines p {
+  padding: 10px 3px;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+/* line 167, ../sass/partials/_base.scss */
+.center-headlines .center-headline {
+  position: relative;
+  height: 100%;
+}
+/* line 170, ../sass/partials/_base.scss */
+.center-headlines .center-headline .cta-button {
+  position: absolute;
+  padding: 7px 20px;
+  border-radius: 1px;
+  background: rgba(250, 250, 250, 0.25);
+  bottom: 0;
+  right: 30px;
+  font-size: 1.4em;
+}
+/* line 178, ../sass/partials/_base.scss */
+.center-headlines .center-headline .cta-button a {
+  color: #000;
+}
+
+/* line 185, ../sass/partials/_base.scss */
+.bottom-section {
+  background: #ccc;
+  height: 300px;
+}
+/* line 188, ../sass/partials/_base.scss */
+.bottom-section .featured-section {
+  padding: 20px;
+}
+/* line 190, ../sass/partials/_base.scss */
+.bottom-section .featured-section .header {
+  padding-bottom: 10px;
+}
+/* line 192, ../sass/partials/_base.scss */
+.bottom-section .featured-section .header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* line 197, ../sass/partials/_base.scss */
+.bottom-section .featured-section .header h3 {
+  font-size: 1.9em;
+  position: absolute;
+  display: inline-block;
+  width: 38%;
+}
+/* line 203, ../sass/partials/_base.scss */
+.bottom-section .featured-section .header > span {
+  display: inline-block;
+  float: right;
+  width: 60%;
+  border-bottom: 1px solid #6E6E6E;
+}
+/* line 208, ../sass/partials/_base.scss */
+.bottom-section .featured-section .header > span a {
+  float: right;
+  background: #6E6E6E;
+  color: #FFF;
+  padding: 3px 10px;
+  font-size: .75em;
+}
+/* line 219, ../sass/partials/_base.scss */
+.bottom-section .features .feature {
+  width: 50%;
+  float: left;
+  padding: 10px 5px;
+}
+/* line 223, ../sass/partials/_base.scss */
+.bottom-section .features .feature:first-child {
+  padding-left: 0px;
+}
+/* line 226, ../sass/partials/_base.scss */
+.bottom-section .features .feature:last-child {
+  padding-right: 0px;
+}
+/* line 229, ../sass/partials/_base.scss */
+.bottom-section .features .feature .img {
+  width: 100%;
+  height: 125px;
+  overflow: hidden;
+}
+/* line 233, ../sass/partials/_base.scss */
+.bottom-section .features .feature .img img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+/* line 239, ../sass/partials/_base.scss */
+.bottom-section .features .feature .headline {
+  background: #fff;
+  height: 50px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 260, ../sass/partials/_base.scss */
+.bottom-section .features .feature .headline span {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+/* line 276, ../sass/partials/_base.scss */
+.bottom-section .latest-news {
+  background: #ececec;
+  padding: 20px;
+  height: 100%;
+}
+/* line 280, ../sass/partials/_base.scss */
+.bottom-section .latest-news h4 {
+  font-size: 1.4em;
+}
+/* line 284, ../sass/partials/_base.scss */
+.bottom-section .latest-news ul li {
+  padding: 7px;
+}
+/* line 286, ../sass/partials/_base.scss */
+.bottom-section .latest-news ul li a {
+  background: #6e6e6e;
+  color: #FFF;
+  padding: 2px 3px;
+  line-height: 22px;
+}
+
+/* line 297, ../sass/partials/_base.scss */
+.footer {
+  background: #1B836C;
+  height: 40px;
+}
